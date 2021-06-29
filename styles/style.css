@@ -1,5 +1,6 @@
 /* Header Navigation */
 .nav-header {
+    margin: 15px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -12,17 +13,17 @@
 } 
 
 .google-apps {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
     width: 22px;
     height: auto;
 }
 
 .logo {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 60px auto 15px auto;
     width: 325px;
-    margin-top: 60px;
-    margin-bottom: 15px;
 }
 
 /* Search */
@@ -42,10 +43,6 @@
 
     border: solid 0.1px rgb(230, 230, 230);
     border-radius: 30px;
-}
-
-.div-search:hover {
-    box-shadow: 0px 0px 3px 2px rgb(240, 240, 240);
 }
 
 @media only screen and (min-width: 700px) {
@@ -101,16 +98,22 @@
 body {
     font-size: 13px;
     font-family: Arial;
+    margin: 0;
 }
 
 a {
     text-decoration: none;
     color: #242524;
-    margin: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 a:hover {
     text-decoration: underline;
+}
+
+.div-search:hover {
+    box-shadow: 0px 0px 3px 2px rgb(230, 230, 230);
 }
 
 .sign-in {
@@ -121,8 +124,6 @@ a:hover {
     height: 35px;
     color: white;
     font-size: 13px;
-    margin-left: 10px;
-    margin-right: 10px;
 }
 
 .search-button {
@@ -139,14 +140,22 @@ a:hover {
     color: rgb(80, 80, 80);
 }
 
-.google-search-icon {
+.search-button:hover {
+    cursor: pointer;
+    box-shadow: 0px 0.5px 1px 1px rgb(220, 220, 220);
+}
+
+.google-search-icon, .google-mic-icon {
+    top: 10px;
     position: relative;
+}
+
+.google-search-icon {
     width: 25px;
     left: 5px;
 }
 
 .google-mic-icon {
-    position: relative;
     width: 15px;
     right: 5px;
 }
