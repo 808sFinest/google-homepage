@@ -1,41 +1,16 @@
-/*
-.flexbox {
-    display: flex;
-    align-items: center;
-}
-*/
-
 /* Header Navigation */
-nav.header {
+.nav-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-#signin {
-    background-color: #1a73e8;
-    border: none;
-    border-radius: 5px;
-    width: 100px;
-    height: 45px;
-    color: white;
-    font-size: 18px;
-}
-
-a {
-    text-decoration: none;
-    color: #242524;
-    margin: 10px;
-}
-
-/*TODO fix ul and li*/
-
-img {
+.google-apps {
     width: 28px;
     height: auto;
 }
 
-#logo {
+.logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -46,25 +21,17 @@ img {
 
 /* Search */
 
-/*
-form.search {
-    display: flex;
-    flex-direction: column;
-    background-color: black;
-}
-*/
-
 .search-container {
     display: flex;
     flex-direction: column;
 }
 
-.search {
+.div-search {
     display: flex;
     justify-content: center;
 }
 
-#search {
+.input-search {
     width: 90vw;
     height: 55px;
     border-radius: 30px;
@@ -73,8 +40,11 @@ form.search {
     margin: 10px;
 }
 
-
-/* Search Buttons */
+@media only screen and (min-width: 700px) {
+    #search {
+        width: 630px;
+    }
+}
 
 .search-buttons {
     display: flex;
@@ -82,7 +52,46 @@ form.search {
     justify-content: center;
 }
 
-.searchbutton {
+/* Footer Nav */
+.footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: #f2f2f2;
+}
+
+.nav-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+/* Aesthetics */
+
+body {
+    font-size: 17px;
+    font-family: Arial;
+}
+
+a {
+    text-decoration: none;
+    color: #242524;
+    margin: 10px;
+}
+
+.sign-in {
+    background-color: #1a73e8;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 45px;
+    color: white;
+    font-size: 18px;
+}
+
+.search-button {
     background-color: #f8f9fa;
     border-radius: 5px;
     border: none;
@@ -92,35 +101,6 @@ form.search {
     padding: 10px;
     width: 200px;
     height: 45px;
-
     font-size: 18px;
     color: black;
-}
-
-@media only screen and (min-width: 700px) {
-    #search {
-        width: 630px;
-    }
-}
-
-
-/* Body */
-body {
-    font-size: 17px;
-    font-family: Arial;
-}
-
-
-/* Footer Nav */
-footer {
-    background-color: #f2f2f2;
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-}
-
-nav.bottom {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
