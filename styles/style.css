@@ -30,29 +30,39 @@
 .search-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .div-search {
     display: flex;
-    justify-content: center;
-}
-
-.input-search {
+    justify-content: space-between;
     width: 90vw;
     max-width: 700px;
-    height: 55px;
-    border-radius: 30px;
-    border: solid lightgray;
-    border-width: 1px;
+    height: 50px;
     margin: 10px;
+
+    border: solid 0.1px lightgray;
+    border-radius: 30px;
 }
 
 @media only screen and (min-width: 700px) {
+    .div-search {
+        width: 630px;
+    }
     .input-search {
         width: 630px;
     }
-    /* TODO have display row instead of column */
 }
+
+.input-search {
+    width: 100%;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    appearance: none;
+}
+
+/*TODO make mic into a button*/
 
 .search-buttons {
     display: flex;
@@ -74,12 +84,11 @@
     align-items: center;
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 750px) {
     .nav-footer {
         flex-direction: row;
         justify-content: space-between;
     }
-    /* TODO have display row instead of column */
 }
 
 
@@ -121,6 +130,20 @@ a {
     color: black;
 }
 
+.google-search-icon, .google-mic-icon {
+    position: relative;
+    top: 3px;
+}
+.google-search-icon {
+    width: 25px;
+    left: 5px;
+}
+
+.google-mic-icon {
+    width: 15px;
+    right: 5px;
+}
+
 .nav-footer {
     padding: 10px;
 }
@@ -133,3 +156,4 @@ a {
     padding: 5px;
     color: #71757b;
 }
+
