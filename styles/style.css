@@ -31,12 +31,9 @@ ul {
 }
 
 img {
-    width: 35px;
+    width: 28px;
     height: auto;
 }
-
-
-
 
 #logo {
     display: block;
@@ -75,7 +72,7 @@ div.flexbox {
 }
 
 #search {
-    width: 710px;
+    width: 720px;
     height: 55px;
     border-radius: 30px;
     border: solid lightgray;
@@ -87,14 +84,19 @@ div.flexbox {
     #search {
         width: 90vw;
     }
+    nav.column {
+        justify-content: space-between;
+    }
 }
 
 
 
 /* Footer Nav */
-
 footer {
     background-color: #f2f2f2;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
 }
 
 
