@@ -21,14 +21,10 @@ nav.flexbox {
 a {
     text-decoration: none;
     color: #242524;
+    margin: 10px;
 }
 
-ul {
-    display: flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
+/*TODO fix ul and li*/
 
 img {
     width: 28px;
@@ -97,11 +93,6 @@ footer {
     position: absolute;
     width: 100%;
     bottom: 0;
-}
-
-
-li {
-    margin: 10px;
 }
 
 body {
