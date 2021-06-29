@@ -1,9 +1,15 @@
 /* Header Navigation */
 .nav-header {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    align-items: center;
 }
+
+.left-header, .right-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+} 
 
 .google-apps {
     width: 28px;
@@ -33,6 +39,7 @@
 
 .input-search {
     width: 90vw;
+    max-width: 700px;
     height: 55px;
     border-radius: 30px;
     border: solid lightgray;
@@ -41,7 +48,7 @@
 }
 
 @media only screen and (min-width: 700px) {
-    #search {
+    .input-search {
         width: 630px;
     }
 }
