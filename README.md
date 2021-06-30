@@ -1,1 +1,1 @@
-I created a responsive, clone of the Google homepage.
+I created a responsive clone of the Google homepage.
