@@ -15,9 +15,14 @@
 .google-apps {
     margin-left: 5px;
     margin-right: 5px;
-    padding: 5px;
+    padding: 7px;
     width: 22px;
     height: auto;
+}
+
+.google-apps:hover {
+    background-color: rgb(230, 230, 230);
+    border-radius: 50%;
 }
 
 .logo {
