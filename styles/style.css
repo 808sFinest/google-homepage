@@ -55,14 +55,13 @@
 }
 
 .input-search {
+    padding-right: 10px;
     width: 100%;
-    font-size: 20px;
+    font-size: 15px;
     border: none;
     outline: none;
     appearance: none;
 }
-
-/*TODO make mic into a button*/
 
 .search-buttons {
     display: flex;
@@ -126,6 +125,12 @@ a:hover {
     font-size: 13px;
 }
 
+.sign-in:hover {
+    cursor: pointer;
+    background-color: #2a7de8;
+    box-shadow: 0px 0.5px 0.5px 0.5px#1a73e8;
+}
+
 .search-button {
     background-color: #f8f9fa;
     border-radius: 5px;
@@ -145,19 +150,23 @@ a:hover {
     box-shadow: 0px 0.5px 1px 1px rgb(220, 220, 220);
 }
 
-.google-search-icon, .google-mic-icon {
-    top: 10px;
+.mic-button {
     position: relative;
+    right: 12px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
 }
 
 .google-search-icon {
-    width: 25px;
-    left: 5px;
+    -webkit-user-drag: none;
+    width: 27px;
+    margin: 8px;
 }
 
 .google-mic-icon {
-    width: 15px;
-    right: 5px;
+    -webkit-user-drag: none;
+    width: 14px;
 }
 
 .nav-footer {
