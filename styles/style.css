@@ -1,6 +1,5 @@
-/* Header Navigation */
 .nav-header {
-    margin: 15px;
+    margin: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -20,18 +19,11 @@
     height: auto;
 }
 
-.google-apps:hover {
-    background-color: rgb(230, 230, 230);
-    border-radius: 50%;
-}
-
 .logo {
     display: block;
     margin: 60px auto 15px auto;
     width: 325px;
 }
-
-/* Search */
 
 .search-container {
     display: flex;
@@ -54,13 +46,10 @@
     .div-search {
         width: 630px;
     }
-    .input-search {
-        width: 630px;
-    }
 }
 
 .input-search {
-    padding-right: 10px;
+    padding-right: 20px;
     width: 100%;
     font-size: 15px;
     border: none;
@@ -74,7 +63,6 @@
     justify-content: center;
 }
 
-/* Footer Nav */
 .footer {
     position: absolute;
     width: 100%;
@@ -97,8 +85,6 @@
 
 
 
-/* Aesthetics */
-
 body {
     font-size: 13px;
     font-family: Arial;
@@ -116,8 +102,9 @@ a:hover {
     text-decoration: underline;
 }
 
-.div-search:hover {
-    box-shadow: 0px 0px 3px 2px rgb(230, 230, 230);
+.google-apps:hover {
+    background-color: rgb(230, 230, 230);
+    border-radius: 50%;
 }
 
 .sign-in {
@@ -136,23 +123,14 @@ a:hover {
     box-shadow: 0px 0.5px 0.5px 0.5px#1a73e8;
 }
 
-.search-button {
-    background-color: #f8f9fa;
-    border-radius: 5px;
-    border: none;
-    margin-top: 25px;
-    margin-left: 8px;
-    margin-right: 8px;
-    padding: 10px;
-    width: 150px;
-    height: 35px;
-    font-size: 14px;
-    color: rgb(80, 80, 80);
+.div-search:hover {
+    box-shadow: 0px 0px 3px 2px rgb(230, 230, 230);
 }
 
-.search-button:hover {
-    cursor: pointer;
-    box-shadow: 0px 0.5px 1px 1px rgb(220, 220, 220);
+.google-search-icon {
+    -webkit-user-drag: none;
+    width: 27px;
+    margin: 8px;
 }
 
 .mic-button {
@@ -163,15 +141,26 @@ a:hover {
     background-color: transparent;
 }
 
-.google-search-icon {
-    -webkit-user-drag: none;
-    width: 27px;
-    margin: 8px;
-}
-
 .google-mic-icon {
     -webkit-user-drag: none;
     width: 14px;
+}
+
+.search-button {
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    border: none;
+    margin: 25px 8px 0 8px;
+    padding: 10px;
+    width: 150px;
+    height: 35px;
+    font-size: 14px;
+    color: rgb(80, 80, 80);
+}
+
+.search-button:hover {
+    cursor: pointer;
+    box-shadow: 0px 0.5px 1px 1px rgb(220, 220, 220);
 }
 
 .nav-footer {
@@ -186,4 +175,3 @@ a:hover {
     padding: 5px;
     color: #71757b;
 }
-
