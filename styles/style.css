@@ -1,5 +1,5 @@
 .nav-header {
-    margin: 10px;
+    padding: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -12,8 +12,6 @@
 } 
 
 .google-apps {
-    margin-left: 5px;
-    margin-right: 5px;
     padding: 7px;
     width: 22px;
     height: auto;
@@ -90,9 +88,9 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    margin: 0;
     font-size: 13px;
     font-family: Arial;
-    margin: 0;
 }
 
 a {
